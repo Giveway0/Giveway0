@@ -21,9 +21,7 @@ It: 2101184
         crossorigin="anonymous"
 ></script>
 <script>
-    Sentry.init({
-        dsn: 'https://e0e6a104cb354a09bf094a90e676ea13@o425163.ingest.sentry.io/5780930',
-        tracesSampleRate: 0.01
+    
     });
 </script>
 <script>
@@ -36,11 +34,11 @@ It: 2101184
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
 
 
     
-    ga('send', 'pageview');
+
 
 </script>
 
